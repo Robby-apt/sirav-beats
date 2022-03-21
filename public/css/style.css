@@ -1,8 +1,8 @@
 /* Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Roboto&display=swap');
 
-/* font-family: 'Hurricane', cursive;
-    font-family: 'Roboto', sans-serif; */
+/* font-family: Cookie, cursive;
+    font-family: Roboto, sans-serif; */
 
 /* General variables */
 :root {
@@ -69,21 +69,38 @@ nav {
 
 .branding {
 	background-color: #fff;
-	border-radius: 0 0 1.25rem 0;
+	border-radius: 0 0 2.5rem 0;
 	color: var(--background-color);
 	display: flex;
 	font-family: Hurricane, cursive;
 	width: 10%;
 }
+
+.brandLogo {
+	margin: auto 0 auto 2.5rem;
+	width: 3.125rem;
+}
+
+.brandName {
+	font-size: 2.25rem;
+	font-family: Cookie, cursive;
+	margin: auto 0 auto 1.25rem;
+}
+
 .navLinks {
 	display: flex;
+	font-size: 1.25rem;
 	justify-content: space-between;
-	margin-right: 1.25rem;
+	margin: auto 2.5rem auto 0;
 	width: 12.5%;
 }
 
 .navLinks a {
 	color: var(--primary-color);
+}
+
+.active {
+	color: var(--secondary-color) !important;
 }
 
 /* Intro styling */
@@ -96,7 +113,7 @@ nav {
 }
 
 .sublime {
-    color: rgba(46, 197, 182, 0.2);
+	color: rgba(46, 197, 182, 0.2);
 	font-size: 4rem;
 }
 
@@ -105,13 +122,13 @@ nav {
 }
 
 .mainIntro {
-    /* background-color: var(--accent-color); */
+	/* background-color: var(--accent-color); */
 	display: flex;
 	flex-direction: column;
-    justify-content: space-between;
+	justify-content: space-between;
 	margin: 0 auto;
 
-    height: 25vh;
+	height: 25vh;
 }
 
 .heading {
@@ -123,12 +140,13 @@ nav {
 	text-align: center;
 }
 .mainIntro a {
-	margin: 0 auto;
+	margin: 1.25rem auto 0 auto;
 }
 
 .actionBtn {
 	background-color: rgba(0, 0, 0, 0);
-    border: var(--primary-color) solid 0.3125rem;
+	border: var(--primary-color) solid 0.3125rem;
 	color: var(--primary-color);
-    padding: 1.25rem 0.625rem;
+    font-size: 1.5rem;
+	padding: 1.25rem 0.625rem;
 }
