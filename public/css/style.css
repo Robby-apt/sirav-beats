@@ -1,5 +1,134 @@
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Roboto&display=swap');
 
-    /* font-family: 'Hurricane', cursive;
+/* font-family: 'Hurricane', cursive;
     font-family: 'Roboto', sans-serif; */
+
+/* General variables */
+:root {
+	--background-color: #011627;
+	--primary-color: #fff;
+	--secondary-color: #2ec5b6;
+	--accent-color: #ff9f1c;
+	/* --more: rgba(46, 197, 182, 0.2); */
+}
+/* General styling */
+* {
+	font-family: Roboto, sans-serif;
+	margin: 0;
+	padding: 0;
+	max-width: 100vw;
+	/* overflow-x: hidden; */
+}
+
+body {
+	background-color: var(--background-color);
+	box-sizing: border-box;
+	color: #fff;
+	margin: 0;
+	max-width: 100vw;
+	padding: 0;
+}
+
+a {
+	color: initial;
+	text-decoration: initial;
+}
+
+.section {
+	width: 100vw;
+	height: 100vh;
+	max-width: 100vw;
+	max-height: 100vh;
+	/* overflow: hidden; */
+}
+
+/* Home section styling */
+#home {
+	background-image: url(/images/vania-shows-N1I6IgDOGJs-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+}
+
+.overlay {
+	background-color: rgba(0, 0, 0, 0.6);
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+}
+
+/* --Navbar styling-- */
+nav {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 10vh;
+}
+
+.branding {
+	background-color: #fff;
+	border-radius: 0 0 1.25rem 0;
+	color: var(--background-color);
+	display: flex;
+	font-family: Hurricane, cursive;
+	width: 10%;
+}
+.navLinks {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 1.25rem;
+	width: 12.5%;
+}
+
+.navLinks a {
+	color: var(--primary-color);
+}
+
+/* Intro styling */
+.introSection {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 1.25rem 2.5rem;
+	height: 90vh;
+}
+
+.sublime {
+    color: rgba(46, 197, 182, 0.2);
+	font-size: 4rem;
+}
+
+.sublimeSecond {
+	margin-left: auto;
+}
+
+.mainIntro {
+    /* background-color: var(--accent-color); */
+	display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+	margin: 0 auto;
+
+    height: 25vh;
+}
+
+.heading {
+	font-size: 6rem;
+}
+
+.subHeading {
+	font-size: 2.25rem;
+	text-align: center;
+}
+.mainIntro a {
+	margin: 0 auto;
+}
+
+.actionBtn {
+	background-color: rgba(0, 0, 0, 0);
+    border: var(--primary-color) solid 0.3125rem;
+	color: var(--primary-color);
+    padding: 1.25rem 0.625rem;
+}

@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
+import Navbar from './Navbar';
+import Intro from './Intro';
 
 function Home() {
-  return (
-    <div>Home</div>
-  )
+	return (
+		<div className="section" id="home">
+			<div className="overlay">
+				<Navbar />
+				<Intro />
+			</div>
+		</div>
+	);
 }
 
-export default Home
+export default Home;
