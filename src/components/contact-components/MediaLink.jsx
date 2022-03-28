@@ -6,7 +6,7 @@ function MediaLink(props) {
 			<a href={props.socialLink}>
 				<i className={props.icon} />
 			</a>
-			<a href={props.socialLink}>{props.userName}</a>
+			<a href={props.socialLink} className="mediaHandle">{props.userName}</a>
 		</div>
 	);
 }

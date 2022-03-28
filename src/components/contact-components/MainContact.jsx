@@ -1,6 +1,7 @@
 import React from 'react';
 import MediaLink from './MediaLink';
 import mediaLinks from '../../socialMedia';
+import ContactForm from './ContactForm';
 
 function createMediaLink(mediaLink) {
 	return (
@@ -17,11 +18,15 @@ function MainContact() {
 	return (
 		<div className="contactArea">
 			<div className="contactOverlay">
-				<div className="socialIcons">
-					{mediaLinks.map(createMediaLink)}
+				<div className="socialIcons contactSubSection">
+					<div className="socialMediaDisplay">
+						{mediaLinks.map(createMediaLink)}
+					</div>
 				</div>
 
-				<div className="contactForm"></div>
+				<div className="contactFormArea contactSubSection">
+					<ContactForm />
+				</div>
 			</div>
 		</div>
 	);

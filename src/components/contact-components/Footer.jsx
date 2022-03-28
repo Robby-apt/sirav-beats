@@ -8,8 +8,17 @@ function Footer() {
 	return (
 		<footer>
 			<p>
-				Designed by <a href="#">Robin</a> All rights reserved &#169;{' '}
-				{currentYear}
+				Designed by{` `}
+				<a
+					className="promoLink"
+					href="https://robby-apt.github.io/Personal-website/"
+					target="_blank"
+					rel="noreferrer"
+				>
+					Robin
+				</a>
+				{` `}
+				All rights reserved &#169; {currentYear}
 			</p>
 		</footer>
 	);
