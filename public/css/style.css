@@ -207,7 +207,7 @@ nav {
 	flex-direction: column;
 	justify-content: space-around;
 	margin: auto;
-	width: 70%;
+	width: 80%;
 	height: 80%;
 }
 
@@ -217,7 +217,7 @@ nav {
 	flex-direction: column;
 }
 
-.iconMedia{
+.iconMedia {
 	color: var(--secondary-color);
 	font-size: 3.125rem;
 }
