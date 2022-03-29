@@ -5,6 +5,7 @@ const beats = [
 		audio: `/audio/in-my-feels.mp3`,
 		title: `In my feels`,
 		rating: ``,
+		playing: true,
 	},
 	{
 		id: 2,
@@ -12,6 +13,7 @@ const beats = [
 		audio: `/audio/angelike.mp3`,
 		title: `Angelike (rmx)`,
 		rating: ``,
+		playing: false,
 	},
 	{
 		id: 3,
@@ -19,6 +21,7 @@ const beats = [
 		audio: `/audio/african-lofi.mp3`,
 		title: `African Lofi`,
 		rating: ``,
+		playing: false,
 	},
 	{
 		id: 4,
@@ -26,6 +29,7 @@ const beats = [
 		audio: `/audio/sunshine-for-scale-beats.mp3`,
 		title: `Sunshine for scale`,
 		rating: ``,
+		playing: false,
 	},
 	{
 		id: 5,
@@ -33,6 +37,7 @@ const beats = [
 		audio: `/audio/srv-lofi.mp3`,
 		title: `lofi`,
 		rating: ``,
+		playing: false,
 	},
 ];
 
