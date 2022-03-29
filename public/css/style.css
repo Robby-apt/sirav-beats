@@ -152,6 +152,94 @@ nav {
 	padding: 1.25rem 0.625rem;
 }
 
+/* Sample section styling */
+
+#sample {
+	display: flex;
+	width: 100%;
+}
+
+.sampleSubsection {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	width: 50%;
+}
+
+.currentlyPlaying {
+	background-color: rgba(46, 197, 182, 0.2);
+}
+
+.sampleSubsectionTitle {
+	font-size: 1.25rem;
+}
+
+.currentlyPlaying .sampleSubsectionTitle {
+	margin: auto 0 auto 1.25rem;
+}
+
+.playingBeatSection {
+	/* background-color: rgb(134, 75, 75); */
+	margin: 0 auto auto auto;
+	width: 95%;
+	height: 90%;
+}
+
+.otherBeatsSection .sampleSubsectionTitle {
+	margin: auto auto 1.25rem auto;
+}
+
+.otherBeatsList {
+	/* background-color: #ff9f1c; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0 auto auto auto;
+	width: 90%;
+	height: 90%;
+}
+
+.beatItem {
+	background-color: rgba(46, 197, 182, 0.2);
+	background-color: rgba(253, 255, 252, 0.2);
+	display: flex;
+}
+
+.beatIcon {
+	font-size: 1.5rem;
+	margin: auto 1.25rem;
+}
+
+.beatItem .imgCover {
+	margin: 0.3125rem 0;
+	object-fit: cover;
+	width: 12.5rem;
+	height: 12.5rem;
+}
+
+.beatItemInfo {
+	/* background-color: var(--accent-color); */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: 0 auto 0 5rem;
+}
+
+.beatName {
+	font-size: 1.5rem;
+}
+
+.beatItemInfo .ratings i {
+	color: var(--accent-color);
+	font-size: 1.5rem;
+}
+
+.playIcon {
+	color: var(--accent-color);
+	font-size: 1.875rem;
+	margin: auto 1.5rem;
+}
+
 /* Contact section styling */
 
 #contact {
