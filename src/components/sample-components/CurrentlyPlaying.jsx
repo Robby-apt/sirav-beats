@@ -12,10 +12,12 @@ function CurrentlyPlaying() {
 		<div className="currentlyPlaying sampleSubsection">
 			<p className="sampleSubsectionTitle">Now Playing {`>`}</p>
 			<div className="playingBeatSection" style={customStyle}>
-				<div className="infoAndControls">
-					<div className="info">
-						<p>{}drc</p>
-						<Ratings />
+				<div className="playerOverlay">
+					<div className="infoAndControls">
+						<div className="info">
+							<p>{}drc</p>
+							<Ratings />
+						</div>
 					</div>
 				</div>
 			</div>

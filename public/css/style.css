@@ -14,6 +14,7 @@
 }
 /* General styling */
 * {
+	box-sizing: border-box;
 	font-family: Roboto, sans-serif;
 	margin: 0;
 	padding: 0;
@@ -183,6 +184,14 @@ nav {
 	margin: 0 auto auto auto;
 	width: 95%;
 	height: 90%;
+}
+
+.playerOverlay {
+	background-color: rgba(0, 0, 0, 0.6);
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
 }
 
 .otherBeatsSection .sampleSubsectionTitle {
