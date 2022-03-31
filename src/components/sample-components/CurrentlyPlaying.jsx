@@ -1,14 +1,11 @@
 import React from 'react';
 import Ratings from './Ratings';
+import BeatPlayer from './BeatPlayer';
 import beats from '../../beats';
 
-const playingBeats = beats.filter(function (beat) {
+const playingBeat = beats.filter(function (beat) {
 	return beat.playing === true;
-});
-
-const playingBeat = playingBeats[0];
-
-console.log(playingBeat);
+})[0];
 
 const customStyle = {
 	backgroundImage: `url(${playingBeat.cover})`,
@@ -26,6 +23,9 @@ function CurrentlyPlaying() {
 						<div className="info">
 							<p>{playingBeat.title}</p>
 							<Ratings />
+						</div>
+						<div className="controls">
+							<BeatPlayer audio={playingBeat.audio} />
 						</div>
 					</div>
 				</div>
