@@ -1,17 +1,14 @@
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Roboto&display=swap');
 
-/* font-family: Cookie, cursive;
-    font-family: Roboto, sans-serif; */
-
 /* General variables */
 :root {
 	--background-color: #011627;
 	--primary-color: #fff;
 	--secondary-color: #2ec5b6;
 	--accent-color: #ff9f1c;
-	/* --more: rgba(46, 197, 182, 0.2); */
 }
+
 /* General styling */
 * {
 	box-sizing: border-box;
@@ -19,11 +16,10 @@
 	margin: 0;
 	padding: 0;
 	max-width: 100%;
-	/* overflow-x: hidden; */
 }
 
 body {
-	background-color: var(--background-color);
+	/* background-color: var(--background-color); */
 	box-sizing: border-box;
 	color: #fff;
 	margin: 0;
@@ -141,6 +137,7 @@ nav {
 	font-size: 2.25rem;
 	text-align: center;
 }
+
 .mainIntro a {
 	margin: 1.25rem auto 0 auto;
 }
@@ -156,6 +153,7 @@ nav {
 /* Sample section styling */
 
 #sample {
+	background-color: var(--background-color);
 	display: flex;
 	width: 100%;
 }
@@ -166,6 +164,8 @@ nav {
 	margin: 0;
 	width: 50%;
 }
+
+/* Custom media player section styling */
 
 .currentlyPlaying {
 	background-color: rgba(46, 197, 182, 0.2);
@@ -339,6 +339,8 @@ nav {
 	background: var(--selectedKnobby);
 }
 
+/* Custom media player controls {play, pause, forward, rewind} */
+
 .audioControls {
 	display: flex;
 	justify-content: space-between;
@@ -373,12 +375,13 @@ nav {
 	font-size: 3.125rem;
 }
 
+/* Other beats section styling*/
+
 .otherBeatsSection .sampleSubsectionTitle {
 	margin: auto auto 1.25rem auto;
 }
 
 .otherBeatsList {
-	/* background-color: #ff9f1c; */
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -406,7 +409,6 @@ nav {
 }
 
 .beatItemInfo {
-	/* background-color: var(--accent-color); */
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -431,13 +433,12 @@ nav {
 /* Contact section styling */
 
 #contact {
-	/* background-color: #ff9f1c; */
+	background-color: var(--background-color);
 	display: flex;
 	flex-direction: column;
 }
 
 .infoSection {
-	/* background-color: red; */
 	display: flex;
 	flex-direction: column;
 	height: 97vh;
@@ -446,13 +447,11 @@ nav {
 
 .prompt,
 .conclusion {
-	/* background-color: #000; */
 	font-size: 1.5rem;
 	text-align: center;
 }
 
 .contactArea {
-	/* background-color: #fff; */
 	background-image: url(/images/mohammad-metri-1oKxSKSOowE-unsplash.jpg);
 	background-size: cover;
 	margin: 0 auto;
@@ -473,12 +472,9 @@ nav {
 	width: 50%;
 }
 
-/* .socialIcons {
-	
-} */
+/* Social media section styling */
 
 .socialMediaDisplay {
-	/* background-color: #2ec5b6; */
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -488,7 +484,6 @@ nav {
 }
 
 .mediaItem {
-	/* background-color: #000; */
 	display: flex;
 	flex-direction: column;
 }
@@ -502,13 +497,14 @@ nav {
 	font-size: 2.25rem;
 }
 
+/* Contact form section styling */
+
 .contactFormArea {
 	background-color: rgba(10, 57, 68, 0.6);
 	display: flex;
 }
 
 form {
-	/* background-color: #000; */
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -518,7 +514,6 @@ form {
 }
 
 .formSubsection {
-	/* background-color:#ff9f1c; */
 	display: flex;
 	flex-direction: column;
 	width: 100%;
@@ -545,7 +540,6 @@ form {
 }
 
 .sentNoti {
-	/* background-color: #2ec5b6; */
 	color: red;
 	font-size: 0.75rem;
 	margin: 0;
@@ -562,6 +556,8 @@ form {
 	margin: 0.625rem auto 0;
 	padding: 00.3125rem 0.625rem;
 }
+
+/* Footer section styling */
 
 footer {
 	background-color: rgba(46, 197, 182, 0.3);

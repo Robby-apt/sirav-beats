@@ -96,17 +96,17 @@ const BeatPlayer = (props) => {
 
 			<div className="audioControls">
 				<button className="forwardBackward" onClick={backFive}>
-					<i class="fa-solid fa-angles-left" />
+					<i className="fa-solid fa-angles-left" />
 				</button>
 				<button onClick={togglePlayPause} className="playPause">
 					{isPlaying ? (
-						<i class="fa-regular fa-circle-pause playPauseBtn" />
+						<i className="fa-regular fa-circle-pause playPauseBtn" />
 					) : (
-						<i class="fa-regular fa-circle-play playPauseBtn" />
+						<i className="fa-regular fa-circle-play playPauseBtn" />
 					)}
 				</button>
 				<button className="forwardBackward" onClick={forwardFive}>
-					<i class="fa-solid fa-angles-right"/>
+					<i className="fa-solid fa-angles-right" />
 				</button>
 			</div>
 		</div>
