@@ -1,0 +1,72 @@
+#sample {
+	background-color: $background-color;
+	display: flex;
+	width: 100%;
+}
+
+.sampleSubsection {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	width: 50%;
+}
+
+/* Custom media player section styling */
+@import './mediaPlayer.scss';
+
+/* Other beats section styling*/
+
+.otherBeatsSection {
+	.sampleSubsectionTitle {
+		margin: auto auto 1.25rem auto;
+	}
+}
+
+.otherBeatsList {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0 auto auto auto;
+	width: 90%;
+	height: 90%;
+}
+
+.beatItem {
+	background-color: rgba(46, 197, 182, 0.2);
+	background-color: rgba(253, 255, 252, 0.2);
+	display: flex;
+
+	.imgCover {
+		margin: 0.3125rem 0;
+		object-fit: cover;
+		width: 12.5rem;
+		height: 12.5rem;
+	}
+}
+
+.beatIcon {
+	font-size: 1.5rem;
+	margin: auto 1.25rem;
+}
+
+.beatItemInfo {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: 0 auto 0 5rem;
+
+	.ratings i {
+		color: $accent-color;
+		font-size: 1.5rem;
+	}
+}
+
+.beatName {
+	font-size: 1.5rem;
+}
+
+.playIcon {
+	color: $accent-color;
+	font-size: 1.875rem;
+	margin: auto 1.5rem;
+}

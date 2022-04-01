@@ -1,0 +1,106 @@
+#home {
+	background-image: url(/images/vania-shows-N1I6IgDOGJs-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	width: 100%;
+}
+
+.overlay {
+	background-color: rgba(0, 0, 0, 0.6);
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+}
+
+/* --Navbar styling-- */
+nav {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 10vh;
+}
+
+.branding {
+	background-color: $primary-color;
+	border-radius: 0 0 2.5rem 0;
+	color: var(--background-color);
+	display: flex;
+	font-family: Hurricane, cursive;
+	width: 10%;
+}
+
+.brandLogo {
+	margin: auto 0 auto 2.5rem;
+	width: 3.125rem;
+}
+
+.brandName {
+	font-size: 2.25rem;
+	font-family: Cookie, cursive;
+	margin: auto 0 auto 1.25rem;
+}
+
+.navLinks {
+	display: flex;
+	font-size: 1.25rem;
+	justify-content: space-between;
+	margin: auto 2.5rem auto 0;
+	width: 12.5%;
+
+	a {
+		color: $primary-color;
+	}
+}
+
+.active {
+	color: $secondary-color !important;
+}
+
+/* Intro styling */
+.introSection {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 1.25rem 2.5rem;
+	height: 90vh;
+}
+
+.sublime {
+	color: rgba(46, 197, 182, 0.2);
+	font-size: 4rem;
+}
+
+.sublimeSecond {
+	margin-left: auto;
+}
+
+.mainIntro {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0 auto;
+	height: 25vh;
+
+	a {
+		margin: 1.25rem auto 0 auto;
+	}
+}
+
+.heading {
+	font-size: 6rem;
+}
+
+.subHeading {
+	font-size: 2.25rem;
+	text-align: center;
+}
+
+.actionBtn {
+	background-color: rgba(0, 0, 0, 0);
+	border: $primary-color solid 0.3125rem;
+	color: $primary-color;
+	font-size: 1.5rem;
+	padding: 1.25rem 0.625rem;
+}
